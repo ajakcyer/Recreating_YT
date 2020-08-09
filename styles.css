@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/* Nav */
+
 svg {
     fill: #606060;
     width: 24px;
@@ -71,6 +73,14 @@ hr {
     top: 1px;
 }
 
+.moreYT h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
 .Subs h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #606060;
@@ -78,6 +88,19 @@ hr {
     font-weight: 500;
     margin-left: 25px;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #606060;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer h4 {
+    margin: 15px 0px 0px 25px;
+}
+
+/* Searchbar */
 
 .TopSearchBar {
     padding-top: 10px;
@@ -115,4 +138,109 @@ hr {
     width: 32px;
     height: 32px;
     border-radius: 30px;
+}
+
+/* Recommended */
+
+.content {
+    float: right;
+    background-color: #f9f9f9;
+}
+
+.ad {
+    width: 1200px;
+    height: 260px;
+}
+
+.vid img {
+    width: 276px;
+    height: 155px;
+}
+
+.recommended {
+    padding: 25px 11px 30px 23px;
+}
+
+.recommended h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 18px;
+}
+
+.rec-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 1px;
+}
+
+.vid-icon img {
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 35px;
+}
+
+.vid-icon {
+    display: inline;
+}
+
+.vid-text {
+    display: inline-block;
+    margin: 15px 0px 0px 10px;
+}
+
+.vid-text h3 {
+    font-weight: 600;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 10px 0px;
+}
+
+.vid-text h4 {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/* breakingnews */
+
+.breaking {
+    padding: 10px 11px 30px 23px;
+}
+
+.breaking > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.breaking > h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px;
+    padding-bottom: 18px;
+}
+
+.breaking-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+}
+
+/* extras */
+
+.extra {
+    padding: 10px 11px 30px 23px;
+}
+
+.extra-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
 }
